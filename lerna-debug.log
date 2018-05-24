@@ -10,7 +10,7 @@
 5 silly isInitialized true
 6 silly existsSync /home/anton/IdeaProjects/test-lerna/VERSION
 7 silly initialize attempt
-8 info current version 0.1.0
+8 info current version 0.2.0
 9 silly isDetachedHead
 10 silly getCurrentBranch
 11 verbose getCurrentBranch master
@@ -22,13 +22,13 @@
 17 silly hasTags
 18 verbose hasTags true
 19 silly getLastTag
-20 verbose getLastTag v0.1.0
-21 info Comparing with v0.1.0.
-22 silly diffSinceIn v0.1.0 packages/test-lerna-package-one
+20 verbose getLastTag v0.2.0
+21 info Comparing with v0.2.0.
+22 silly diffSinceIn v0.2.0 packages/test-lerna-package-one
 23 silly diff
-24 silly diffSinceIn v0.1.0 packages/test-lerna-package-three
+24 silly diffSinceIn v0.2.0 packages/test-lerna-package-three
 25 silly diff packages/test-lerna-package-three/index.js
-26 silly diffSinceIn v0.1.0 packages/test-lerna-package-two
+26 silly diffSinceIn v0.2.0 packages/test-lerna-package-two
 27 silly diff
 28 verbose updated test-lerna-package-two
 29 info Checking for prereleased packages...
@@ -39,7 +39,7 @@
 34 silly collectUpdates
 35 verbose has filtered update test-lerna-package-two
 36 silly recommendFixedVersion for test-lerna-package-two at /home/anton/IdeaProjects/test-lerna/packages/test-lerna-package-three
-37 verbose recommendFixedVersion increment 0.1.0 by minor
+37 verbose recommendFixedVersion increment 0.2.0 by patch
 38 silly initialize success
 39 silly execute attempt
 40 silly addFile /home/anton/IdeaProjects/test-lerna/lerna.json
@@ -49,24 +49,24 @@
 44 silly updateFixedChangelog for test-lerna-package-two at /home/anton/IdeaProjects/test-lerna/packages/test-lerna-package-three
 45 silly existsSync /home/anton/IdeaProjects/test-lerna/packages/test-lerna-package-three/CHANGELOG.md
 46 silly readFileSync /home/anton/IdeaProjects/test-lerna/packages/test-lerna-package-three/CHANGELOG.md
-47 silly updateFixedChangelog writing new entry: "<a name=\"0.2.0\"></a>\n# [0.2.0](https://github.com/avalickij/test-lerna/compare/v0.1.0...v0.2.0) (2018-05-24)\n\n\n### Features\n\n* add another console.log ([3b6bfb3](https://github.com/avalickij/test-lerna/commit/3b6bfb3))\n\n\n"
+47 silly updateFixedChangelog writing new entry: "<a name=\"0.2.1\"></a>\n## [0.2.1](https://github.com/avalickij/test-lerna/compare/v0.2.0...v0.2.1) (2018-05-24)\n\n\n### Bug Fixes\n\n* change text ([a8c9b7d](https://github.com/avalickij/test-lerna/commit/a8c9b7d))\n\n\n"
 48 silly writeFileSync [ '/home/anton/IdeaProjects/test-lerna/packages/test-lerna-package-three/CHANGELOG.md',
-48 silly writeFileSync   '# Change Log\n\nAll notable changes to this project will be documented in this file.\nSee [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<a name="0.2.0"></a>\n# [0.2.0](https://github.com/avalickij/test-lerna/compare/v0.1.0...v0.2.0) (2018-05-24)\n\n\n### Features\n\n* add another console.log ([3b6bfb3](https://github.com/avalickij/test-lerna/commit/3b6bfb3))\n\n\n\n\n<a name="0.1.0"></a>\n# [0.1.0](https://github.com/avalickij/test-lerna/compare/v0.0.1-3.2...v0.1.0) (2018-05-02)\n\n\n### Features\n\n* add console.log ([c77f186](https://github.com/avalickij/test-lerna/commit/c77f186))' ]
+48 silly writeFileSync   '# Change Log\n\nAll notable changes to this project will be documented in this file.\nSee [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<a name="0.2.1"></a>\n## [0.2.1](https://github.com/avalickij/test-lerna/compare/v0.2.0...v0.2.1) (2018-05-24)\n\n\n### Bug Fixes\n\n* change text ([a8c9b7d](https://github.com/avalickij/test-lerna/commit/a8c9b7d))\n\n\n\n\n<a name="0.2.0"></a>\n# [0.2.0](https://github.com/avalickij/test-lerna/compare/v0.1.0...v0.2.0) (2018-05-24)\n\n\n### Features\n\n* add another console.log ([3b6bfb3](https://github.com/avalickij/test-lerna/commit/3b6bfb3))\n\n\n\n\n<a name="0.1.0"></a>\n# [0.1.0](https://github.com/avalickij/test-lerna/compare/v0.0.1-3.2...v0.1.0) (2018-05-02)\n\n\n### Features\n\n* add console.log ([c77f186](https://github.com/avalickij/test-lerna/commit/c77f186))' ]
 49 verbose updateFixedChangelog wrote /home/anton/IdeaProjects/test-lerna/packages/test-lerna-package-three/CHANGELOG.md
 50 silly updateFixedRootChangelog for undefined at /home/anton/IdeaProjects/test-lerna
 51 silly existsSync /home/anton/IdeaProjects/test-lerna/CHANGELOG.md
 52 silly readFileSync /home/anton/IdeaProjects/test-lerna/CHANGELOG.md
-53 silly updateFixedRootChangelog writing new entry: "<a name=\"0.2.0\"></a>\n# [0.2.0](https://github.com/avalickij/test-lerna/compare/v0.1.0...v0.2.0) (2018-05-24)\n\n\n### Features\n\n* add another console.log ([3b6bfb3](https://github.com/avalickij/test-lerna/commit/3b6bfb3))\n\n\n"
+53 silly updateFixedRootChangelog writing new entry: "<a name=\"0.2.1\"></a>\n## [0.2.1](https://github.com/avalickij/test-lerna/compare/v0.2.0...v0.2.1) (2018-05-24)\n\n\n### Bug Fixes\n\n* change text ([a8c9b7d](https://github.com/avalickij/test-lerna/commit/a8c9b7d))\n\n\n"
 54 silly writeFileSync [ '/home/anton/IdeaProjects/test-lerna/CHANGELOG.md',
-54 silly writeFileSync   '# Change Log\n\nAll notable changes to this project will be documented in this file.\nSee [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<a name="0.2.0"></a>\n# [0.2.0](https://github.com/avalickij/test-lerna/compare/v0.1.0...v0.2.0) (2018-05-24)\n\n\n### Features\n\n* add another console.log ([3b6bfb3](https://github.com/avalickij/test-lerna/commit/3b6bfb3))\n\n\n\n\n<a name="0.1.0"></a>\n# [0.1.0](https://github.com/avalickij/test-lerna/compare/v0.0.1-3.2...v0.1.0) (2018-05-02)\n\n\n### Features\n\n* add console.log ([c77f186](https://github.com/avalickij/test-lerna/commit/c77f186))' ]
+54 silly writeFileSync   '# Change Log\n\nAll notable changes to this project will be documented in this file.\nSee [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<a name="0.2.1"></a>\n## [0.2.1](https://github.com/avalickij/test-lerna/compare/v0.2.0...v0.2.1) (2018-05-24)\n\n\n### Bug Fixes\n\n* change text ([a8c9b7d](https://github.com/avalickij/test-lerna/commit/a8c9b7d))\n\n\n\n\n<a name="0.2.0"></a>\n# [0.2.0](https://github.com/avalickij/test-lerna/compare/v0.1.0...v0.2.0) (2018-05-24)\n\n\n### Features\n\n* add another console.log ([3b6bfb3](https://github.com/avalickij/test-lerna/commit/3b6bfb3))\n\n\n\n\n<a name="0.1.0"></a>\n# [0.1.0](https://github.com/avalickij/test-lerna/compare/v0.0.1-3.2...v0.1.0) (2018-05-02)\n\n\n### Features\n\n* add console.log ([c77f186](https://github.com/avalickij/test-lerna/commit/c77f186))' ]
 55 verbose updateFixedRootChangelog wrote /home/anton/IdeaProjects/test-lerna/CHANGELOG.md
 56 silly runScriptSync version undefined
 57 silly addFile /home/anton/IdeaProjects/test-lerna/packages/test-lerna-package-three/CHANGELOG.md
 58 silly addFile /home/anton/IdeaProjects/test-lerna/packages/test-lerna-package-three/package.json
 59 silly addFile /home/anton/IdeaProjects/test-lerna/CHANGELOG.md
-60 silly commit v0.2.0
-61 verbose commit [ 'commit', '--no-verify', '-m', 'v0.2.0' ]
-62 silly addTag v0.2.0
+60 silly commit v0.2.1
+61 verbose commit [ 'commit', '--no-verify', '-m', 'v0.2.1' ]
+62 silly addTag v0.2.1
 63 silly runScriptSync postversion test-lerna-package-two
 64 silly runScriptSync postversion undefined
 65 info publish Publishing packages to npm...
@@ -101,9 +101,9 @@
 91 error publish npm ERR! need auth You need to authorize this machine using `npm adduser`
 91 error publish
 91 error publish npm ERR! A complete log of this run can be found in:
-91 error publish npm ERR!     /home/anton/.npm/_logs/2018-05-24T15_18_41_704Z-debug.log
+91 error publish npm ERR!     /home/anton/.npm/_logs/2018-05-24T15_27_04_383Z-debug.log
 91 error publish
-91 error publish     at Promise.all.then.arr (/home/anton/.npm/_npx/21397/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+91 error publish     at Promise.all.then.arr (/home/anton/.npm/_npx/22420/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
 91 error publish     at <anonymous>
 91 error publish     at process._tickCallback (internal/process/next_tick.js:188:7)
 92 error execute callback with error
@@ -113,7 +113,7 @@
 93 error npm ERR! need auth You need to authorize this machine using `npm adduser`
 93 error
 93 error npm ERR! A complete log of this run can be found in:
-93 error npm ERR!     /home/anton/.npm/_logs/2018-05-24T15_18_41_704Z-debug.log
+93 error npm ERR!     /home/anton/.npm/_logs/2018-05-24T15_27_04_383Z-debug.log
 93 error
-93 error     at Promise.all.then.arr (/home/anton/.npm/_npx/21397/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+93 error     at Promise.all.then.arr (/home/anton/.npm/_npx/22420/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
 93 error     at <anonymous>
