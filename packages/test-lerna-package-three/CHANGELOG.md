@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.2.4"></a>
+## [0.2.4](https://github.com/avalickij/test-lerna/compare/v0.2.3...v0.2.4) (2018-05-25)
+
+
+### Bug Fixes
+
+* change number ([800134f](https://github.com/avalickij/test-lerna/commit/800134f))
+
+
+
+
 <a name="0.2.3"></a>
 ## [0.2.3](https://github.com/avalickij/test-lerna/compare/v0.2.2...v0.2.3) (2018-05-24)
 
